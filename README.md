@@ -1,6 +1,11 @@
 # HtmlCssCource
 In each folder you can find task.txt file with homework task
 
+Usefull plagins
+1) Auto-save on windows change 
+2) Beautify
+3) Emmet
+
 How to install brackets on debian(libcurl3 libcurl4 problem solved)
 1) Download the .deb installer file
 2) Inside the folder your downloaded the file run dpkg-deb -R ./Brackets.Release.1.12.64-bit.deb Brackets
