@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f8f8
+}
+
+
+.menuHeader>li {
+    /*убрали маркеры*/
+    list-style: none;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.menuHeader li a {
+    text-decoration: none;
+    color: coral;
+    font-size: 1.3em;
+}
+
+/*краткое описание товара*/
+.shortDescription {
+    color: #070707;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: left;
+}
+
+.detailDescription,
+.settings,
+.form {
+    border: 2px coral dotted;
+}
+
+/*подробное описание товара*/
+.detailDescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.slist li {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("../img/iconfinder_Star_Gold_1398915.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+
+/*поле ввода - селекторы атрибутов - для всех у кого type=text
+input[type="text"] {
+    font-size: 10px;
+}
+*/
+
+.form,
+#tarea {
+    font-size: 1em;
+    color: mediumpurple;
+    font-style: italic;
+    border-color: rgb(7, 32, 23);
+    border-width: 1px;
+}
+
+select[id="topic"]>option,
+.tcolor {
+    color: mediumpurple;
+}
+
+.inputSize {
+    width: 30%;
+    height: 1cm;
+
+}
+
+.specification-name {
+    color: tomato;
+}
+
+.specification-value {
+    color: mediumpurple;
+}
+
+.frame {
+    border: 3px solid coral;
+}
