@@ -16,6 +16,7 @@ body {
     background-color: cornsilk;
     /*clear: both;*/
     overflow: hidden;
+    clear: both;
 }
 
 h1 {
@@ -46,9 +47,15 @@ h2 {
 }
 
 /*********************header & footer*****************************************/
-.header {
+.header,
+.footer {
+    font-size: 1.1em;
     position: relative;
     height: 100%;
+    background-color: gainsboro;
+    font-size: 1em;
+    font-style: italic;
+
 }
 
 .logo {
@@ -62,59 +69,48 @@ h2 {
 
 }
 
-nav {
-    float: right;
-}
-
-.header nav::after {
-    clear: both;
-}
-
-footer {
-    height: 100px;
-}
-
-.header hr,
-footer hr {
+.header nav {
     position: relative;
+    float: right;
 
 }
+
+.footer div {
+    position: relative;
+    float: left;
+
+}
+
 
 .header hr,
-footer hr {
+.footer hr {
+    position: relative;
     border: rgb(241, 131, 88) 2px solid;
-    display: block;
     clear: both;
+    opacity: 0.5
 }
 
-header,
-footer {
-    background-color: gainsboro;
-    font-size: 1em;
-    font-style: italic;
+.footer {
+    position: relative;
+    clear: both;
+    text-align: right;
+
+    height: 5rem;
 }
-
-
 
 .header li,
-footer li {
+.footer li {
     /*один из способов разместить элементы в строку*/
     display: inline-block;
     /*убрали маркеры*/
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
-
 .header li a,
-footer a {
-    font-size: 1.1em;
+.footer a {
     color: orange;
     text-decoration: none;
-    padding-bottom: 2px;
     border: 0;
     background-image: none;
 }
@@ -126,6 +122,51 @@ footer a:hover {
 
 }
 
+.footer div {
+    margin-top: 10px;
+    position: relative;
+
+    text-align: center;
+    float: right;
+
+}
+
+/**********************page contacts*********************************/
+
+.map {
+    border: 0;
+    height: 374px;
+    width: 100%;
+}
+
+.form,
+#tarea,
+.form select {
+    font-size: 1em;
+    color: mediumpurple;
+    font-style: italic;
+
+}
+
+
+.form input,
+.form textarea {
+    text-transform: capitalize;
+}
+
+.inputSize {
+    width: 30%;
+    height: 1cm;
+    border-bottom-left-radius: 10;
+    margin: 10px;
+
+}
+
+.email:focus {
+    border: 5px solid red;
+    background-color: gray;
+    color: red;
+}
 
 
 /*********************page список товаров**********************************************************/
@@ -231,34 +272,6 @@ footer a:hover {
 }
 
 
-.form,
-#tarea,
-.form select {
-    font-size: 1em;
-    color: mediumpurple;
-    font-style: italic;
-
-}
-
-
-.form input,
-.form textarea {
-    text-transform: capitalize;
-}
-
-.inputSize {
-    width: 30%;
-    height: 1cm;
-    border-bottom-left-radius: 10;
-
-}
-
-.email:focus {
-    border: 5px solid red;
-    background-color: gray;
-    color: red;
-}
-
 
 .specification-name {
     color: tomato;
@@ -299,7 +312,7 @@ footer a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*index hw4 task9-11 test table*/
+/*************************index hw4 task9-11 test table*******************************/
 .task9-11 {
     border: 1px coral solid;
     border-collapse: collapse;
