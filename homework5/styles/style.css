@@ -1,0 +1,337 @@
+body {
+    background-color: #f8f8f8;
+    margin: 10px;
+    display: block;
+}
+
+.container {
+    width: 95%;
+    min-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: cornsilk;
+    /*clear: both;*/
+    overflow: hidden;
+    clear: both;
+}
+
+h1 {
+    background-color: antiquewhite;
+    font-weight: 800;
+    font-size: 28px;
+    background-image: url("../img/iconfinder_staroffice_8813.png");
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    height: 64px;
+}
+
+h2 {
+    background-color: rgb(209, 235, 235);
+    font-weight: 400;
+    font-size: 18px;
+    background-image: url("../img/iconfinder_Unicorn_2913106.png");
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    height: 64px;
+}
+
+.roundBorder {
+    border-bottom-left-radius: 5;
+    border-bottom-right-radius: 5;
+    border-top-right-radius: 5;
+    border-bottom-left-radius: 5;
+}
+
+/*********************header & footer*****************************************/
+.header,
+.footer {
+    font-size: 1.1em;
+    position: relative;
+    height: 100%;
+    background-color: gainsboro;
+    font-size: 1em;
+    font-style: italic;
+
+}
+
+.logo {
+    /*для дочернего элемента*/
+    position: relative;
+    width: 128px;
+    height: 128px;
+    float: left;
+    top: 0px;
+    left: 0px;
+
+}
+
+.header nav {
+    position: relative;
+    float: right;
+
+}
+
+.footer div {
+    position: relative;
+    float: left;
+
+}
+
+
+.header hr,
+.footer hr {
+    position: relative;
+    border: rgb(241, 131, 88) 2px solid;
+    clear: both;
+    opacity: 0.5
+}
+
+.footer {
+    position: relative;
+    clear: both;
+    text-align: right;
+
+    height: 5rem;
+}
+
+.header li,
+.footer li {
+    /*один из способов разместить элементы в строку*/
+    display: inline-block;
+    /*убрали маркеры*/
+    list-style: none;
+
+}
+
+.header li a,
+.footer a {
+    color: orange;
+    text-decoration: none;
+    border: 0;
+    background-image: none;
+}
+
+
+.menuHeader li a:hover,
+footer a:hover {
+    color: lightseagreen;
+
+}
+
+.footer div {
+    margin-top: 10px;
+    position: relative;
+
+    text-align: center;
+    float: right;
+
+}
+
+/**********************page contacts*********************************/
+
+.map {
+    border: 0;
+    height: 374px;
+    width: 100%;
+}
+
+.form,
+#tarea,
+.form select {
+    font-size: 1em;
+    color: mediumpurple;
+    font-style: italic;
+
+}
+
+
+.form input,
+.form textarea {
+    text-transform: capitalize;
+}
+
+.inputSize {
+    width: 30%;
+    height: 1cm;
+    border-bottom-left-radius: 10;
+    margin: 10px;
+
+}
+
+.email:focus {
+    border: 5px solid red;
+    background-color: gray;
+    color: red;
+}
+
+
+/*********************page список товаров**********************************************************/
+.imgGds {
+    width: 80px;
+    height: 80px;
+}
+
+.ulistGds div {
+    /*убрали маркеры*/
+    padding: 10px;
+    float: left;
+}
+
+.ulistGds::after {
+    clear: both;
+
+}
+
+/*********************page описания товара**************************************/
+.divGds {
+    width: 30%;
+    height: 350px;
+    vertical-align: baseline;
+    padding: 10px;
+    margin: 0.5%;
+    float: left;
+    position: relative;
+    border: none;
+
+}
+
+.buyGds a img:hover {
+    outline: none;
+}
+
+.btnBuy {
+    clear: both;
+    height: 50px;
+}
+
+.btnBuy button {
+    position: relative;
+    align-content: center;
+    width: 100%;
+    height: 40px;
+}
+
+.btnBuy form button:hover {
+    background: lawngreen;
+}
+
+.btnBuy form button:active {
+    background: blueviolet;
+}
+
+
+/*рамка изображения товара*/
+.frame {
+    outline: navy 3px solid;
+}
+
+/*краткое описание товара*/
+.shortDescription {
+    color: #070707;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: left;
+}
+
+.detailDescription,
+.settings,
+.form,
+.tech {
+    border: 2px coral dotted;
+    border-width: 1px;
+    padding: 10px;
+    border-spacing: 10px;
+}
+
+/*подробное описание товара*/
+.detailDescription {
+    clear: both;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.slist li {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("../img/iconfinder_Star_Gold_1398915.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+
+
+
+.specification-name {
+    color: tomato;
+}
+
+.specification-value {
+    color: mediumpurple;
+}
+
+
+
+/*убираем рамку при наведении на товар, убираем смещение изображения без рамки*/
+.gdsDescription img:hover {
+    outline: none;
+}
+
+
+
+.tableTech {
+    border: 1px solid coral;
+    width: 400px;
+    height: 400px;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+
+.tableTech tr td {
+    border: 1px solid coral;
+    padding-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.detailDescription p::first-letter {
+    color: red;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*************************index hw4 task9-11 test table*******************************/
+.task9-11 {
+    border: 1px coral solid;
+    border-collapse: collapse;
+
+}
+
+.task9-11 tr:first-child {
+    height: 100px;
+}
+
+.task9-11 tr td {
+    height: 20px;
+    border: 1px solid coral;
+    padding-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: gainsboro;
+}
+
+.task9-11 tr td:nth-child(2n) {
+    background-color: cornsilk;
+}
