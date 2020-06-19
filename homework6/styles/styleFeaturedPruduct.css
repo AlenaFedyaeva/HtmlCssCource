@@ -91,30 +91,63 @@
     float: left;
 }
 
-.product-link-hover {
+.product-layer2 {
     position: absolute;
     width: 270px;
     height: 270px;
-    background-color: thistle;
     z-index: 100;
     opacity: 0.7;
     /*display: none;*/
     /*visibility: hidden;*/
+    /* Style for "back" */
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
 }
 
+/*****************************Эффекты для блока********/
 /**/
-.product-link-hover:hover {
+.product-layer2:hover {
     visibility: visible;
 }
-
-
 
 /**/
 .product-link:hover {
     outline: red solid;
 }
 
-.product-link:hover .product-link-hover {
+.product-link:hover .product-layer2 {
     display: block;
     visibility: visible;
+
+}
+
+/**********************************************************/
+.product-hover-link {
+    text-decoration: none;
+    position: relative;
+}
+
+.product-hover-icon {
+    position: relative;
+    margin-left: 111px;
+    margin-top: 62px;
+
+
+}
+
+.product-hover-h4 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-hover-p {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
 }
