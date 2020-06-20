@@ -1,0 +1,144 @@
+.footer {
+    height: 384px;
+    /* Style for "footer-bac" */
+    background-color: #f7f7f7;
+}
+
+
+.footer-layout1 {
+    padding-top: 120px;
+}
+
+/*общий заголовок для элементов layout1*/
+.footer-h3 {
+    /* Style for "Contact Us" */
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+    padding-bottom: 24px;
+}
+
+
+.footer11 {
+    width: 221px;
+    float: left;
+    padding-right: 50px;
+}
+
+.footer11-p {
+    /* Style for "132A Bridg" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer12 {
+    width: 422px;
+    float: left;
+
+}
+
+.footer12-ul {
+    float: left;
+}
+
+.footer12-ul {
+    list-style-type: none;
+}
+
+.footer12-text ul:last-child {
+    float: right;
+}
+
+.footer12-a {
+    text-decoration: none;
+    /* Style for "Sales term" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+}
+
+.footer13 {
+    width: 370px;
+    float: left;
+    padding-left: 78px;
+}
+
+.footer13-p {
+    /* Style for "Suscribe t" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 26px;
+}
+
+.footer13-input {
+    width: 370px;
+    height: 48px;
+    /* Style for "input" */
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    /* Style for "your email" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/**********************************layout2**************************************************/
+
+.footer-layout2 {
+    margin-top: 59px;
+}
+
+.footer21 {
+    float: left;
+    padding-right: 158px;
+}
+
+.footer21-p {
+    /* Style for "© Copyrigh" */
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+
+}
+
+.footer22 {
+    width: 129px;
+    float: left;
+}
+
+.footer22-social {
+    /* Style for "" */
+    color: #6c6c6c;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for ", " */
+    letter-spacing: 5.6px;
+}
+
+.footer23 {
+    width: 370px;
+    float: right;
+}
+
+.footer23-a {
+    text-decoration: none;
+    /* Style for "Terms & Co" */
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+}

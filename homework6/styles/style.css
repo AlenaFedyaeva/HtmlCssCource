@@ -1,5 +1,6 @@
 @import url(styleFeaturedPruduct.css);
-@import url(exclusive.css);
+@import url(styleother.css);
+@import url(stylefooter.css);
 
 /*обнуление стилей*/
 * {
