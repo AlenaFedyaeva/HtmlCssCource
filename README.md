@@ -1,4 +1,12 @@
-# HtmlCssCource
+#AlenaFedyaeva.github.io
+
+##HtmlCss cource homework 
+
+##Домашняя работа №6 - [alenafedyaeva.github.io/homework6/](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6)
+
+
+
+
 In each folder you can find task.txt file with homework task
 
 Usefull plagins
