@@ -1,4 +1,5 @@
 @import url(styleFeaturedPruduct.css);
+@import url(exclusive.css);
 
 /*обнуление стилей*/
 * {
@@ -8,6 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .clear-fix::after {
@@ -25,6 +27,7 @@ body {
     width: 1366px;
     /*центрирование*/
     margin: 0 auto;
+    min-height: 2000;
 
 }
 

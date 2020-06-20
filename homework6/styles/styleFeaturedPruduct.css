@@ -2,6 +2,8 @@
 
     height: 369px;
     margin-top: 120px;
+    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -96,7 +98,6 @@
     width: 270px;
     height: 270px;
     z-index: 100;
-    opacity: 0.7;
     /*display: none;*/
     /*visibility: hidden;*/
     /* Style for "back" */
@@ -111,11 +112,11 @@
     visibility: visible;
 }
 
-/**/
+/*
 .product-link:hover {
     outline: red solid;
 }
-
+*/
 .product-link:hover .product-layer2 {
     display: block;
     visibility: visible;
