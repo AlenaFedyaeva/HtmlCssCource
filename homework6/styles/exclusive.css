@@ -1,9 +1,11 @@
+/**********block exclusive********************************/
+
 .exclusive {
     width: 100%;
     height: 683px;
     position: relative;
     padding: 0;
-
+    padding-bottom: 119px;
 }
 
 .exclusive-gds {
@@ -60,3 +62,117 @@
     padding-bottom: 34px;
     width: 374px;
 }
+
+/**********block exclusive end********************************/
+
+
+/**********block hot deal********************************/
+.hotdeal {
+    background-image: url(../img/hotdeal/slider.png);
+    position: relative;
+    height: 800px;
+}
+
+.hotdeal-text {
+    position: relative;
+    width: 458px;
+    top: 287px;
+}
+
+.hotdeal-head {
+    /* Style for "Hot deal" */
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "Hot deal" */
+    letter-spacing: 1.8px;
+    padding: 22px 7px;
+}
+
+.hotdeal-h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 8px;
+    padding-bottom: 34px;
+}
+
+.hotdeal-p {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 32px;
+}
+
+.hotdeal-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 19px;
+    text-align: center;
+}
+
+/**********block hot-deal end********************************/
+
+/**********block mobile app********************************/
+
+.mobileapp {
+    background-image: url(../img/mobileapp/back-img.png);
+    position: relative;
+    height: 516px;
+}
+
+.mobileapp-text {
+    position: relative;
+    width: 458px;
+    top: 287px;
+}
+
+
+/**********block mobile app end********************************/
+
+/**********block trending************************************/
+.trending {
+    height: 900;
+    position: relative;
+
+}
+
+.trending-menu {}
+
+.trending-menu-left {
+    float: left;
+}
+
+.trending-menu-right {
+    float: right;
+}
+
+.trending-ul {}
+
+.trending-li {
+    list-style-type: none;
+    float: left;
+
+}
+
+.trending-ul li:nth-child(n) {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.trending-ul li:nth-child(3n) {
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.trending-a {
+    text-decoration: none;
+}
+
+.trending-list-img {}
+
+/**********block trending end********************************/
