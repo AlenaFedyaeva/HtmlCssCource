@@ -2,8 +2,13 @@
 
 HtmlCss cource homework 
 
-## Домашняя работа №6 - [alenafedyaeva.github.io/homework6/](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6)
+## Домашняя работа №6 
+
+### Просмотреть сайт - https://alenafedyaeva.github.io/homework6/
+
+### Скачать архив - [alenafedyaeva.github.io/homework6/](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6)
 Чтобы скачать нажмите кнопку 'Clone or Download'  и нажмите 'Download ZIP'
+
 
 
 ##
