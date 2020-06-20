@@ -1,13 +1,13 @@
 # AlenaFedyaeva.github.io
 
-## HtmlCss cource homework 
+HtmlCss cource homework 
 
 ## Домашняя работа №6 - [alenafedyaeva.github.io/homework6/](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6)
 Чтобы скачать нажмите кнопку 'Clone or Download'  и нажмите 'Download ZIP'
 
 
-
-## In each folder you can find task.txt file with homework task
+##
+In each folder you can find task.txt file with homework task
 
 Usefull plagins
 1) Auto-save on windows change 
