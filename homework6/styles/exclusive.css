@@ -123,6 +123,7 @@
     background-image: url(../img/mobileapp/back-img.png);
     position: relative;
     height: 516px;
+    margin-top: 120px;
 }
 
 .mobileapp-text {
@@ -138,6 +139,7 @@
 .trending {
     height: 900;
     position: relative;
+    margin-bottom: 120px;
 
 }
 
