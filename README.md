@@ -4,17 +4,17 @@ HtmlCss cource homework
 
 ### Просмотреть сайты домашних работ можно тут:
 
-1. [homework 1] (https://alenafedyaeva.github.io/homework1/)
-2. [homework 2] (https://alenafedyaeva.github.io/homework2/)
-3. [homework 3] (https://alenafedyaeva.github.io/homework3/)
-4. [homework 4] (https://alenafedyaeva.github.io/homework4/)
-5. [homework 5] (https://alenafedyaeva.github.io/homework5/)
-6. [homework 6] (https://alenafedyaeva.github.io/homework6/)
-7. [homework 7] (https://alenafedyaeva.github.io/homework7/)
-8. [homework 8] (https://alenafedyaeva.github.io/homework8/)
+1. [homework 1](https://alenafedyaeva.github.io/homework1/)
+2. [homework 2](https://alenafedyaeva.github.io/homework2/)
+3. [homework 3](https://alenafedyaeva.github.io/homework3/)
+4. [homework 4](https://alenafedyaeva.github.io/homework4/)
+5. [homework 5](https://alenafedyaeva.github.io/homework5/)
+6. [homework 6](https://alenafedyaeva.github.io/homework6/)
+7. [homework 7](https://alenafedyaeva.github.io/homework7/)
+8. [homework 8](https://alenafedyaeva.github.io/homework8/)
 
 
-### Скачать архив - [alenafedyaeva.github.io/](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io)
+###  [Скачать архив](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io)
 Чтобы скачать нажмите кнопку 'Clone'  и нажмите 'Download ZIP'
 
 
