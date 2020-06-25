@@ -9,9 +9,9 @@ HtmlCss cource homework
 3. [homework 3](https://alenafedyaeva.github.io/homework3/)
 4. [homework 4](https://alenafedyaeva.github.io/homework4/)
 5. [homework 5](https://alenafedyaeva.github.io/homework5/)
-6. [homework 6](https://alenafedyaeva.github.io/homework6/)
-7. [homework 7](https://alenafedyaeva.github.io/homework7/)
-8. [homework 8](https://alenafedyaeva.github.io/homework8/)
+6. [homework 6](https://alenafedyaeva.github.io/homework6/) , [макет psd](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6/maket)
+7. [homework 7](https://alenafedyaeva.github.io/homework7/) , [макет psd](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6/maket)
+8. [homework 8](https://alenafedyaeva.github.io/homework8/) , [макет psd](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io/tree/master/homework6/maket)
 
 
 ###  [Скачать архив](https://github.com/AlenaFedyaeva/alenafedyaeva.github.io)
